@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_practice1"
+            android:title="Практика 1: Основы" />
+
+        <item
+            android:id="@+id/nav_practice2"
+            android:title="Практика 2: Макеты" />
+
+        <item
+            android:id="@+id/nav_practice3"
+            android:title="Практика 3: Виджеты" />
+
+        <item
+            android:id="@+id/nav_practice4"
+            android:title="Практика 4: Списки" />
+
+        <item
+            android:id="@+id/nav_practice5"
+            android:title="Практика 5: Данные" />
+
+        <item
+            android:id="@+id/nav_practice6"
+            android:title="Практика 6: Сеть" />
+
+        <item
+            android:id="@+id/nav_practice7"
+            android:title="Практика 7: Навигация" />
+
+        <item
+            android:id="@+id/nav_practice8"
+            android:title="Практика 8: Карты" />
+
+        <item
+            android:id="@+id/nav_practice9"
+            android:title="Практика 9: Камера" />
+
+        <item
+            android:id="@+id/nav_practice10"
+            android:title="Практика 10: Настройки" />
+    </group>
+
+</menu>
