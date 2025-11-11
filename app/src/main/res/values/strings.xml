@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">ApplicationAllPZ</string>
+    <string name="button_morning">Зарядка</string>
+    <string name="button_day">Учеба</string>
+    <string name="button_evening">Тренировка</string>
+    <string name="button_night">Сон</string>
+
+    <string name="morning_toast_1">Время для утренней зарядки!</string>
+    <string name="morning_toast_2">Растяжка улучшает гибкость</string>
+    <string name="morning_toast_3">Силовые упражнения</string>
+    <string name="morning_toast_4">Душ после зарядки</string>
+    <string name="morning_toast_5">Здоровый завтрак</string>
+    <string name="practice_1_title">Практика 1 - Распорядок дня</string>
 </resources>

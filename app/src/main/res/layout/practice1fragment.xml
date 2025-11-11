@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Practice1Fragment">
+
+    <!-- Кнопки навигации -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/btnMorning"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FFFF9800"
+            android:text="Зарядка"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnDay"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FF4CAF50"
+            android:text="Учеба"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnEvening"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FF2196F3"
+            android:text="Тренировка"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnNight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FF9C27B0"
+            android:text="Сон"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- Контейнер для изображений -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <!-- Ночная локация -->
+        <ImageView
+            android:id="@+id/imageNight"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:visibility="invisible"
+            android:background="#FF000000"
+            tools:ignore="ContentDescription" />
+
+        <!-- Вечерняя локация -->
+        <ImageView
+            android:id="@+id/imageEvening"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:visibility="invisible"
+            android:background="#FF2196F3"
+            tools:ignore="ContentDescription" />
+
+        <!-- Дневная локация -->
+        <ImageView
+            android:id="@+id/imageDay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:visibility="invisible"
+            android:background="#FF4CAF50"
+            tools:ignore="ContentDescription" />
+
+        <!-- Утренняя локация с интерактивными элементами -->
+        <RelativeLayout
+            android:id="@+id/layoutMorning"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            android:background="#FFFF9800">
+
+            <ImageView
+                android:id="@+id/imageMorning"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:visibility="visible"
+                android:background="#FFFF9800"
+                tools:ignore="ContentDescription" />
+
+            <!-- Интерактивные кнопки на утренней локации -->
+            <Button
+                android:id="@+id/btnExercise1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="100dp"
+                android:background="@android:color/transparent" />
+
+            <Button
+                android:id="@+id/btnExercise2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginEnd="50dp"
+                android:layout_alignParentEnd="true"
+                android:background="@android:color/transparent" />
+
+            <Button
+                android:id="@+id/btnExercise3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="70dp"
+                android:layout_marginBottom="200dp"
+                android:layout_alignParentBottom="true"
+                android:background="@android:color/transparent" />
+
+            <Button
+                android:id="@+id/btnExercise4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginBottom="150dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:background="@android:color/transparent" />
+
+            <Button
+                android:id="@+id/btnExercise5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:background="@android:color/transparent" />
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

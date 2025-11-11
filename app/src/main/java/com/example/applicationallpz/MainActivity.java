@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
             int id = item.getItemId();
 
             if (id == R.id.nav_practice1) {
-                showFragment(new Practice1Fragment(), "Практика 1");
+                showFragment(new Practice1Fragment(), "Практика  - Распорядок дня");
             } else if (id == R.id.nav_practice2) {
                 showFragment(new Practice2Fragment(), "Практика 2");
             } else if (id == R.id.nav_practice3) {

@@ -4,7 +4,7 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_practice1"
-            android:title="Практика 1: Основы" />
+            android:title="Практика 1: Уведомления" />
 
         <item
             android:id="@+id/nav_practice2"
