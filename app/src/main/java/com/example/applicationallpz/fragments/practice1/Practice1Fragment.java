@@ -1,4 +1,4 @@
-package com.example.applicationallpz;
+package com.example.applicationallpz.fragments.practice1;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -16,6 +16,8 @@ import android.view.Gravity;
 
 import androidx.core.app.NotificationCompat;
 import androidx.fragment.app.Fragment;
+
+import com.example.applicationallpz.R;
 
 public class Practice1Fragment extends Fragment {
 

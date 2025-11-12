@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Заголовок -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Форма ввода данных"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"
+            android:textColor="@color/black" />
+
+        <!-- Поле имени -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Имя *"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введите ваше имя"
+            android:inputType="textPersonName"
+            android:importantForAutofill="no"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edit_text_background" />
+
+        <!-- Поле компании -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Компания"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/editTextCompany"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введите название компании"
+            android:inputType="text"
+            android:importantForAutofill="no"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edit_text_background" />
+
+        <!-- Поле возраста -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Возраст *"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/editTextAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введите ваш возраст"
+            android:inputType="number"
+            android:importantForAutofill="no"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edit_text_background" />
+
+        <!-- Поле телефона -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Телефон"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введите номер телефона"
+            android:inputType="phone"
+            android:importantForAutofill="no"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/edit_text_background" />
+
+        <!-- Кнопки методов передачи -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Выберите метод передачи данных:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btnPutExtra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PutExtra"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnSerializable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Serializable"
+            android:backgroundTint="@color/teal_700"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnParcelable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Parcelable"
+            android:backgroundTint="@color/green_700"
+            android:textColor="@color/white"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Подсказка -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* - обязательные поля для заполнения"
+            android:textSize="12sp"
+            android:textColor="@color/gray"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+</ScrollView>

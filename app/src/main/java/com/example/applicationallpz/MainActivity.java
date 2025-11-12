@@ -7,20 +7,19 @@ import android.widget.FrameLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
-import com.example.applicationallpz.FavoritesFragment;
-import com.example.applicationallpz.HomeFragment;
-import com.example.applicationallpz.Practice10Fragment;
-import com.example.applicationallpz.Practice1Fragment;
-import com.example.applicationallpz.Practice2Fragment;
-import com.example.applicationallpz.Practice3Fragment;
-import com.example.applicationallpz.Practice4Fragment;
-import com.example.applicationallpz.Practice5Fragment;
-import com.example.applicationallpz.Practice6Fragment;
-import com.example.applicationallpz.Practice7Fragment;
-import com.example.applicationallpz.Practice8Fragment;
-import com.example.applicationallpz.Practice9Fragment;
-import com.example.applicationallpz.ProfileFragment;
-import com.example.applicationallpz.R;
+import com.example.applicationallpz.fragments.FavoritesFragment;
+import com.example.applicationallpz.fragments.HomeFragment;
+import com.example.applicationallpz.fragments.Practice10Fragment;
+import com.example.applicationallpz.fragments.practice1.Practice1Fragment;
+import com.example.applicationallpz.fragments.practice2.Practice2Fragment;
+import com.example.applicationallpz.fragments.practice3.Practice3Fragment;
+import com.example.applicationallpz.fragments.practice4.Practice4Fragment;
+import com.example.applicationallpz.fragments.practice5.Practice5Fragment;
+import com.example.applicationallpz.fragments.Practice6Fragment;
+import com.example.applicationallpz.fragments.Practice7Fragment;
+import com.example.applicationallpz.fragments.Practice8Fragment;
+import com.example.applicationallpz.fragments.Practice9Fragment;
+import com.example.applicationallpz.fragments.ProfileFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -70,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
             if (id == R.id.nav_practice1) {
                 showFragment(new Practice1Fragment(), "Практика  - Распорядок дня");
             } else if (id == R.id.nav_practice2) {
-                showFragment(new Practice2Fragment(), "Практика 2");
+                showFragment(new Practice2Fragment(), "Практика - Калькулятор");
             } else if (id == R.id.nav_practice3) {
                 showFragment(new Practice3Fragment(), "Практика 3");
             } else if (id == R.id.nav_practice4) {

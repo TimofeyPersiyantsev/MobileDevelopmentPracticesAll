@@ -11,4 +11,30 @@
     <string name="morning_toast_4">Душ после зарядки</string>
     <string name="morning_toast_5">Здоровый завтрак</string>
     <string name="practice_1_title">Практика 1 - Распорядок дня</string>
+
+    <string-array name="app_names">
+        <item>Супермен</item>
+        <item>Милая Девушка</item>
+        <item>Сина Вейбо</item>
+        <item>QQ</item>
+        <item>Королева 2</item>
+        <item>UC Браузер</item>
+        <item>ВКонтакте</item>
+        <item>Телеграм</item>
+        <item>WhatsApp</item>
+        <item>YouTube</item>
+    </string-array>
+
+    <string-array name="app_descriptions">
+        <item>Приложение о супергероях</item>
+        <item>Милое приложение для девушек</item>
+        <item>Китайская социальная сеть</item>
+        <item>Популярный мессенджер</item>
+        <item>Игра в карты</item>
+        <item>Мобильный браузер</item>
+        <item>Российская социальная сеть</item>
+        <item>Безопасный мессенджер</item>
+        <item>Международный мессенджер</item>
+        <item>Видео хостинг</item>
+    </string-array>
 </resources>

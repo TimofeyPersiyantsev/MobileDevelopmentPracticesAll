@@ -1,4 +1,4 @@
-package com.example.applicationallpz;
+package com.example.applicationallpz.fragments;
 
 import androidx.fragment.app.Fragment;
 

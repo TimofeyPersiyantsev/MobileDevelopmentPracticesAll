@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Practice1Fragment">
+    tools:context=".fragments.practice1.Practice1Fragment">
 
     <!-- Кнопки навигации -->
     <LinearLayout
